@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'View/AdminScreen.dart';
 import 'View/AuthScreen.dart';
-import 'View/ClientScreen.dart';
-import 'View/DetailsScreen.dart';
 import 'View/LoginScreen.dart';
-import 'View/MenuScreen.dart';
-import 'View/QRCodeScreen.dart';
 import 'View/SplashScreen.dart';
 
 void main() {
@@ -17,17 +12,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Mon Application',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
-      initialRoute: '/',
+      theme: ThemeData(
+        primarySwatch: Colors.orange, // Mise à jour du thème en orange
+      ),
+      home: SplashScreen(), // Écran de démarrage
+      debugShowCheckedModeBanner: false, // Masque le logo de débogage
       routes: {
-        '/': (context) => ClientScreen(),
-        '/login': (context) => LoginScreen(),
-        '/menu': (context) => MenuScreen(),
-        '/qrCode': (context) => QRCodeScreen(),
-        '/Onboarding3': (context) => Onboarding3(),
-      //  '/details': (context) => DetailsScreen(menuItem: _menuItems[index]),
-
+        '/AuthScreen': (context) => AuthScreen(),
+        '/Login': (context) => LoginScreen(),
       },
     );
   }

@@ -20,8 +20,8 @@ class AuthScreen extends StatelessWidget {
 
             ),
             bottom: TabBar(
-              indicatorColor: Colors.blueAccent,
-              labelColor: Colors.blueAccent,
+              indicatorColor: Colors.orangeAccent,
+              labelColor: Colors.orange,
               unselectedLabelColor: Colors.grey,
               tabs: [
                 Tab(text: 'Login'),

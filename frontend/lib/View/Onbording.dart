@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'OnLocalisation.dart';
-import 'Onboarding2.dart';
 
 class Onboarding3 extends StatefulWidget {
   const Onboarding3({Key? key}) : super(key: key);
@@ -27,10 +25,7 @@ class _Onboarding3State extends State<Onboarding3> {
             padding: const EdgeInsets.all(20.0),
             child: ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => AuthScreen()),
-                );
+
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.orangeAccent,
