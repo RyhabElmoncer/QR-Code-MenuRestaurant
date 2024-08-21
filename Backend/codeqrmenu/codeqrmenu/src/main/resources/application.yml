@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8085
   servlet:
     response:
       max-size: 10MB
@@ -7,9 +7,9 @@ server:
 
 spring:
   application:
-    name: QRcodeCommande
+    name: qrcode
   datasource:
-    url: jdbc:mysql://localhost:3306/QRcodeCommande
+    url: jdbc:mysql://localhost:3306/qrcode
     username: root
     password:
 

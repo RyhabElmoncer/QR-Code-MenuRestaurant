@@ -53,37 +53,36 @@ public class AuthenticationService {
 
   public AuthenticationResponse authenticate(AuthenticationRequest request) {
     try {
+      System.out.println("Received authentication request for email: " + request.getEmail());
+
       authenticationManager.authenticate(
               new UsernamePasswordAuthenticationToken(
                       request.getEmail(),
                       request.getPassword()
               )
       );
+
       var user = repository.findByEmail(request.getEmail())
               .orElseThrow(() -> new IllegalArgumentException("User not found with email: " + request.getEmail()));
 
-      /*// Check if the user has the role ADMIN or SOUS_ADMIN
-      if (user.getRole() != Role.ADMIN && user.getRole() != Role.SOUS_ADMIN) {
-        throw new AccessDeniedException("Access restricted to ADMIN and SOUS_ADMIN roles");
-      }*/
+      System.out.println("Authenticated user: " + user.getEmail());
 
       var jwtToken = jwtService.generateToken(user);
       var refreshToken = jwtService.generateRefreshToken(user);
       revokeAllUserTokens(user);
       saveUserToken(user, jwtToken);
 
-
-
       return AuthenticationResponse.builder()
               .accessToken(jwtToken)
               .refreshToken(refreshToken)
+              .role(user.getRole())
               .build();
     } catch (Exception e) {
-      // Log exception for debugging
       System.err.println("Authentication failed: " + e.getMessage());
       throw e; // Re-throw the exception to ensure the client gets the correct error response
     }
   }
+
 
 
   private void saveUserToken(User user, String jwtToken) {

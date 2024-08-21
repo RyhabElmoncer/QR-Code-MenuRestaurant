@@ -23,8 +23,7 @@ public class UserServiceImplementation {
         User user = new User();
         // Map UserRequest fields to User entity
         user.setEmail(userRequest.getEmail());
-        user.setFirstName(userRequest.getFirstName());
-        user.setLastName(userRequest.getLastName());
+
 
         user.setPassword(passwordEncoder.encode(userRequest.getPassword()));
         user.setRole(userRequest.getRole());
