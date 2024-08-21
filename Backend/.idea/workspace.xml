@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97276d11-4440-4deb-b828-ba8bf523dcd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/Model/Plats.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/View/Client/MenuPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/View/Client/widget/menuExemple.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/AdminScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/View/Admin/AdminScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/AuthScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/View/auth/AuthScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/ClientScreen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/LoginScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/View/auth/LoginScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/QRCodeScreen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/QRScanScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/View/QRScanScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/SignUpScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/View/auth/SignUpScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/auth/LOGIN.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/auth/SIGNUP.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/auth/Widget/LoginForm.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/auth/Widget/SignUpForm.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/shared widgets/Drawer.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/View/shared widgets/bottom_nav.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +39,12 @@
     &quot;assignee&quot;: &quot;RyhabElmoncer&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/RyhabElmoncer/QR-Code-MenuCommande.git&quot;,
-    &quot;accountId&quot;: &quot;b262ca4e-986f-4406-9900-cbd40dacadcd&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:RyhabElmoncer/QR-Code-MenuRestaurant.git",
+    "accountId": "683bc743-a693-43bc-859f-20415f3da11c"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -35,18 +53,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dell/Documents/traveil/QR-Code-MenuRestaurant/Backend/codeqrmenu",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dell/Documents/traveil/QR-Code-MenuRestaurant/Backend/codeqrmenu&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
